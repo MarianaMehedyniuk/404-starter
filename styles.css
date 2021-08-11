@@ -1,0 +1,58 @@
+body {
+  color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.main {
+  text-align: center;
+}
+
+.image {
+  margin-top: 110px;
+}
+
+.number {
+  font-size: 120px;
+  line-height: 140px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.number:hover ~ .explanation {
+  opacity: 1;
+}
+
+.explanation {
+  width: 400px;
+
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.footer {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+
+  font-size: 16px;
+  line-height: 18 px;
+  font-weight: normal;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+.footer-link {
+  color: #2f80ed;
+}
